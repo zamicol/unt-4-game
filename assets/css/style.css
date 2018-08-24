@@ -1,0 +1,110 @@
+body{
+	background-image: url('../images/batterjambackground.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+}
+
+.content {
+	padding-top:10px;
+	max-width: 600px;
+	margin: auto;
+	text-align: center;
+	color:#ffffff;
+}
+
+p {
+	color:#ffffff;
+	background-color:#9e6868;
+}
+
+#container{
+	width: 100%;
+	margin: auto 50px;
+}
+
+.chooseCharacterBox{
+	width: 80%;
+	height: 150px;
+	margin: 10px 0 0 10px;
+	text-align: center;
+}
+
+.chooseCharacterBox img{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.chooseCharacterBox h3{
+	color: #fff;
+}
+
+.chooseCharacterBox p1{
+	font-size: 30px;
+}
+
+.character{
+	margin: 10px;
+	width: 100px;
+	height: 150px;
+	float: left;
+	background-color: rgba(204, 204, 204, 0.397);
+}
+
+.enemiesBox{
+	width: 700px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+
+.enemiesBox div{
+	height:150px;
+	width:100px; 
+	background-color:crimson;
+}
+
+.enemiesBox h3{
+	color: #fff;
+	text-align: center;
+}
+
+.attackBtn{
+	margin-left: 10px;
+}
+
+.resetBtn{
+	margin-left: 10px;
+}
+
+.fightBox p{
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+.defenceBox{
+	width: 700px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+.defenceBox p {
+	margin-left: 10px;
+}
+
+p2{
+	text-align: center;
+}
+
+.hero{
+background-color:blue;
+}
+
+.enemy{
+	background-color:red;
+}
+

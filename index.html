@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" screen="media" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" screen="media" href="assets/css/reset.css">
+	<title>Battery Jam</title>
+</head>
+
+<body>
+
+<div class="content">
+	<h3>Select your fighter</h3>
+	<div class="heroesBox">
+		<div class="chooseCharacterBox">
+			<!--Turbo-->
+			<div type="button" class="character" id="turbo" characterName="turbo" health="200" attack="5" counterAttack="40">
+					<img class="batteryJam" src="assets/images/turbo.JPG" alt="love character img">
+							<h6>Turbo:<br>HP: <span class="hp">200</span></h6>
+			</div>
+			<!--Rocket-->
+			<div type="button" class="character" id="rocket" characterName="rocket" health="180" attack="5" counterAttack="45">
+					<img class="batteryJam" src="assets/images/rocket.JPG" alt="love character img">
+					<h6>Rocket:<br>HP: 180</h6>
+			</div>
+			<!--Slug-->
+			<div type="button" class="character" id="slug" characterName="slug" health="170" attack="5" counterAttack="20">
+					<img class="batteryJam" src="assets/images/slug.JPG" alt="love character img">
+					<h6>Slug:<br>HP: 170</h6>
+			</div>
+			<!-- Love -->
+			<div type="button" class="character" id="love" characterName="love" health="160" attack="5" counterAttack="190">
+				<img class="batteryJam" src="assets/images/love.JPG" alt="love character img">
+						<h6>Love:<br>HP: 160</h6>
+			</div>
+		</div>
+	</div>
+
+		<p></p>
+		<p><h1>Choose your Enemy to Attack</h1></p>
+	<!-- Enemy Selection Section -->
+	<div class="enemiesBox">
+
+
+	</div>
+
+
+<div class="enemySelection"></div>
+
+
+        <!-- Fight Selection -->
+        <div class="fightBox">
+            <div class="fightArena"></div>
+            <br><p>May the odds ever be in your favor</p><br>
+        </div>
+
+        <button class="attackBtn">Attack</button>
+
+        <div class="defenceBox">
+                <div class="defence"></div>
+                <p>Defender</p>
+        </div>
+
+        <button class='resetBtn'>Reset</button>
+            
+
+    <footer>
+        <div class="container wrapper">Jared B Harris</div>
+    </footer>
+
+		</div><!-- end container -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
