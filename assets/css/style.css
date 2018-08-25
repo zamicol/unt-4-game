@@ -15,7 +15,7 @@ body{
 
 p {
 	color:#ffffff;
-	background-color:#9e6868;
+	background-color:#9e686898;
 }
 
 #container{
@@ -106,5 +106,9 @@ background-color:blue;
 
 .enemy{
 	background-color:red;
+}
+
+.clearfix{
+	clear:both;
 }
 
